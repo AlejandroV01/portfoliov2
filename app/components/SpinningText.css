@@ -1,0 +1,44 @@
+:root {
+  --main: #15cfb6;
+  --mainLight: #20f7da0e;
+  --textColor: #ffffffcb;
+  --textColorSubtle: #999999;
+  --borderColor: #808080;
+  --borderRadius: 1.25rem;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--borderColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  overflow: hidden;
+}
+
+.circle_text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: anim 10s linear infinite;
+  overflow: hidden;
+}
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.circle_text span {
+  position: absolute;
+  left: 50%;
+  font-size: 1.2em;
+  transform-origin: 0 100px;
+  overflow: hidden;
+}
