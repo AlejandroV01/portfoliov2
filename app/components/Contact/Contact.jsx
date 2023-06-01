@@ -8,6 +8,7 @@ import * as yup from 'yup'
 import 'yup-phone'
 import './Contact.css'
 import Input from './Input'
+
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false)
   const form = useRef()

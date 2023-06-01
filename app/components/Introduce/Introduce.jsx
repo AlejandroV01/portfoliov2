@@ -1,5 +1,5 @@
 import React from 'react'
-import SpinningText from './SpinningText'
+import SpinningText from '../SpinningText'
 const Introduce = () => {
   return (
     <div className='gutterHuge'>
