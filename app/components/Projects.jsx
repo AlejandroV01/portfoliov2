@@ -31,7 +31,7 @@ const Projects = () => {
   ]
   return (
     <div>
-      <h1 className='lighterHeading gutterHuge'>
+      <h1 className='lighterHeading gutterBig'>
         My <span className='mainColor '>Projects</span>
       </h1>
       {info.map((project, index) => {
@@ -41,7 +41,7 @@ const Projects = () => {
             {/* eslint-disable-next-line */}
             <img className='leftGrid fullWidth' alt={project.title} src={project.imgUrl} />
             <div className='flexVert rightGrid'>
-              <div className='flex gutter' style={{ gap: '1rem', alignItems: 'center' }}>
+              <div className='flex gutter' style={{ alignItems: 'center' }}>
                 <h3 className=' projectResumeTitle'>{project.title}</h3>
                 <div>
                   <FiExternalLink className='externalLink' size={18} />

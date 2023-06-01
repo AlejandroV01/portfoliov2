@@ -5,6 +5,7 @@ import { FiMail } from 'react-icons/fi'
 import { HiOutlineSquare3Stack3D } from 'react-icons/hi'
 import { RiSuitcaseLine } from 'react-icons/ri'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import Introduce from '../components/Introduce'
 import Projects from '../components/Projects'
 import Resume from '../components/Resume'
@@ -31,6 +32,11 @@ const InfoPanel = () => {
         <span>PROJECTS</span>
       </div>
       <Projects />
+      <div className='chip gutterBig'>
+        <BiChalkboard />
+        <span>Contact</span>
+      </div>
+      <Contact />
     </div>
   )
 }

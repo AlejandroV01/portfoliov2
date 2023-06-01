@@ -48,4 +48,11 @@
   transition: color 0.3s ease-in-out;
   width: 20px;
   color: var(--textColor);
+  margin-left: 0.5rem;
+  transition: margin-left 0.1s ease-in-out;
+}
+
+.grid:hover .externalLink {
+  transition: margin-left 0.1s ease-in-out;
+  margin-left: 0.75rem;
 }
