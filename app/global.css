@@ -208,3 +208,12 @@ h2 {
 .moreInfoLink:hover .moreInfoText {
   border-bottom: 1px solid var(--main);
 }
+
+.skillChipText {
+  transition: color 0.1s ease-in-out;
+  color: var(--textColorSubtle);
+}
+.skillChip:hover .skillChipText {
+  transition: color 0.1s ease-in-out;
+  color: white;
+}

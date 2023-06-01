@@ -30,7 +30,7 @@ const Projects = () => {
     },
   ]
   return (
-    <div>
+    <div className='gutterHuge'>
       <h1 className='lighterHeading gutterBig'>
         My <span className='mainColor '>Projects</span>
       </h1>
