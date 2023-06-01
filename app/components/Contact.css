@@ -1,0 +1,38 @@
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.contactInputDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contactInput {
+  background-color: var(--mainLight);
+  color: var(--textColor);
+  border: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  outline: none;
+  caret-color: var(--main);
+  border-radius: var(--borderRadius);
+}
+.contactInput:focus {
+  color: white;
+}
+
+.tall-input {
+  background-color: var(--mainLight);
+  color: var(--textColor);
+  border: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  outline: none;
+  caret-color: var(--main);
+  border-radius: var(--borderRadius);
+  resize: none;
+  grid-column: span 4;
+}

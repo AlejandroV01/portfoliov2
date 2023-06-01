@@ -10,7 +10,7 @@ const Projects = () => {
       description:
         'ValoShop is a full-stack MERN application that allows Valorant enthusiasts to sign up, login, and track their favorite skins, while also offering social features such as adding friends and sharing liked skins for an enhanced user experience.',
       link: 'https://github.com/AlejandroV01/ValShop',
-      skills: ['React', 'JavaScript', 'Node', 'Express', 'JSONWebToken', 'MongoDB', 'Emotion', 'MUI'],
+      skills: ['React', 'JavaScript', 'Node', 'Express', 'JSONWebToken', 'MongoDB', 'Emotion', 'MUI', 'Yup'],
     },
     {
       imgUrl: '/AlgoSaurus.PNG',
@@ -26,7 +26,7 @@ const Projects = () => {
       description:
         'I leveraged the CheapShark API for seamless integration with a Firebase database and authentication system, enabling efficient GET requests to display discounted video game deals from over 20 stores, resulting in a captivating user experience enhanced by an aesthetically pleasing UI layout.',
       link: 'https://gamedeal.netlify.app/',
-      skills: ['React', 'JavaScript', 'Etc', 'etc'],
+      skills: ['React', 'JavaScript', 'Zustand', 'Firebase', 'Axios', 'RSuite'],
     },
   ]
   return (

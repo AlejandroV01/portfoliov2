@@ -17,7 +17,7 @@ const SpinningText = () => {
   return (
     <div className='circle'>
       <BsArrowDown className='textColor' size={50} />
-      <div class='circle_text'>
+      <div className='circle_text'>
         <p ref={textRef} className='textColor'>
           MY PROJECTS &#x2022; FULL STACK &#x2022;
         </p>
