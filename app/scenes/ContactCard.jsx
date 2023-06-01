@@ -24,7 +24,7 @@ const ContactCard = () => {
       </div>
       <button className='button_main fullWidth'>
         <FiMail size={'1.25rem'} />
-        Hire Me!
+        Contact Me!
       </button>
     </div>
   )

@@ -1,6 +1,7 @@
 import { InputBase } from '@mui/material'
 import React from 'react'
 import { RiH1 } from 'react-icons/ri'
+import { toast } from 'react-toastify'
 import './Contact.css'
 const Input = ({ label, placeholder, required = false, handleBlur, handleChange, name, span = 2, minHeight, value, error, errorMessage }) => {
   return (

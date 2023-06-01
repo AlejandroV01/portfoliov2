@@ -25,6 +25,9 @@ p,
 span {
   color: var(--textColor);
 }
+*::selection {
+  background-color: var(--main);
+}
 p {
   line-height: 1.68rem;
 }
