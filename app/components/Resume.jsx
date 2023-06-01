@@ -28,7 +28,7 @@ const Resume = () => {
     },
   ]
   return (
-    <div>
+    <div className='gutterHuge'>
       <h1 className='lighterHeading gutterBig'>
         Education & <span className='mainColor'>Experience</span>
       </h1>
@@ -65,12 +65,12 @@ const Resume = () => {
             </div>
           )
         })}
-        <div className='flex'>
-          <a href='/AlejandroVera_Resume.pdf'>
-            <h5>
+        <div className='flex gutterBig'>
+          <a href='/AlejandroVera_Resume.pdf' className='flex moreInfoLink' target='_blank' rel='noopener noreferrer'>
+            <h3 className='moreInfoText'>
               View Full <span className='mainColor'>Resume</span>
-            </h5>
-            <BsArrowRightShort size={18} />
+            </h3>
+            <BsArrowRightShort size={25} />
           </a>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='shortWidthSection gutterBig'>
+    <div className='shortWidthSection gutterHuge'>
       <h1 className='lighterHeading gutterBig'>
         Bridging the Gap between Imagination and <span className='mainColor'>Innovation</span>
       </h1>

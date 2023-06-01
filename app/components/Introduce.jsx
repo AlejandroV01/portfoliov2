@@ -2,7 +2,7 @@ import React from 'react'
 import SpinningText from './SpinningText'
 const Introduce = () => {
   return (
-    <div className='gutterBig'>
+    <div className='gutterHuge'>
       <h1 className='flex lighterHeading' style={{ fontSize: '5rem', display: 'inline' }}>
         Hi, I&apos;m <span className='mainColor'>Alejandro</span>,
       </h1>

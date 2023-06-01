@@ -132,6 +132,9 @@ h2 {
 .gutterBig {
   margin-bottom: 3rem;
 }
+.gutterHuge {
+  margin-bottom: 5rem;
+}
 .main_container {
   padding: 0 6rem;
   min-height: 100vh;
@@ -178,4 +181,26 @@ h2 {
 
 .shortWidthSection {
   width: 85%;
+}
+
+.moreInfoLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--textColor);
+  transition: gap 0.3s ease-in-out;
+  gap: 2px;
+  padding-bottom: 3px;
+}
+
+.moreInfoLink:hover {
+  transition: gap 0.1s ease-in-out;
+  gap: 10px;
+}
+.moreInfoText {
+  border-bottom: 1px solid transparent;
+}
+.moreInfoLink:hover .moreInfoText {
+  border-bottom: 1px solid var(--main);
 }
