@@ -6,7 +6,8 @@ import { HiOutlineSquare3Stack3D } from 'react-icons/hi'
 import { RiSuitcaseLine } from 'react-icons/ri'
 import About from '../components/About'
 import Introduce from '../components/Introduce'
-import SpinningText from '../components/SpinningText'
+import Projects from '../components/Projects'
+import Resume from '../components/Resume'
 const InfoPanel = () => {
   return (
     <div style={{ width: '60%', paddingTop: '6rem' }} className='flexVert'>
@@ -20,6 +21,16 @@ const InfoPanel = () => {
         <span>ABOUT</span>
       </div>
       <About />
+      <div className='chip gutterBig'>
+        <RiSuitcaseLine />
+        <span>RESUME</span>
+      </div>
+      <Resume />
+      <div className='chip gutterBig'>
+        <BiChalkboard />
+        <span>PROJECTS</span>
+      </div>
+      <Projects />
     </div>
   )
 }

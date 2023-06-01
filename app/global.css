@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap');
 :root {
   --main: #15cfb6;
-  --mainLight: #20f7da0e;
+  --mainMouse: #20f7da0e;
+  --mainBright: #48e2ce;
+  --mainLight: #15cfb68f;
   --textColor: #ffffffcb;
   --textColorSubtle: #999999;
   --borderColor: #808080;
@@ -23,7 +25,9 @@ p,
 span {
   color: var(--textColor);
 }
-
+p {
+  line-height: 1.68rem;
+}
 h1 {
   font-size: 3rem;
 }
@@ -43,6 +47,12 @@ h2 {
   text-decoration: underline;
 }
 .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
   background: linear-gradient(0deg, rgba(29, 29, 29, 1) 0%, rgba(23, 23, 23, 1) 50%, rgba(29, 29, 29, 1) 100%);
 }
 .button_main {
@@ -106,20 +116,25 @@ h2 {
 }
 
 .card {
-  /* border: 2px solid var(--borderColor);
-  border-radius: var(--borderRadius); */
   position: sticky;
   align-items: start;
   top: 0;
-  padding-top: 6rem;
+  padding: 6rem 0;
+  max-height: 100vh;
 }
 
 .gutter {
   margin-bottom: 1rem;
 }
+.gutterSmall {
+  margin-bottom: 0.5rem;
+}
+.gutterBig {
+  margin-bottom: 3rem;
+}
 .main_container {
-  margin: 0 auto;
   padding: 0 6rem;
+  min-height: 100vh;
 }
 .main_flex {
   gap: 5%;
@@ -134,7 +149,7 @@ h2 {
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 0px 0px 900px 300px var(--mainLight);
+  box-shadow: 0px 0px 900px 300px var(--mainMouse);
   border-radius: 50%;
   /* transition: transform 300ms cubic-bezier(0.17, 0.67, 0.83, 0.67); */
 }
@@ -152,12 +167,13 @@ h2 {
   justify-content: center;
 }
 
+.chipSecond {
+  background-color: var(--mainLight);
+  color: var(--mainBright);
+  border: none;
+}
 .lighterHeading {
   font-weight: 400;
-}
-
-.gutterBig {
-  margin-bottom: 3rem;
 }
 
 .shortWidthSection {

@@ -4,7 +4,8 @@ import InfoPanel from './scenes/InfoPanel'
 
 export default function HomePage() {
   return (
-    <div className='background'>
+    <div>
+      <div className='background'></div>
       <MouseFollow />
       <div className='main_container'>
         <div className='flex main_flex'>
