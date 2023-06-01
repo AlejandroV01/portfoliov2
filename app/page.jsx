@@ -51,7 +51,7 @@ export default function HomePage() {
       <MouseFollow />
       <div className='main_container'>
         <div className='flex main_flex'>
-          <ContactCard />
+          <ContactCard contactRef={contactRef} />
           <InfoPanel
             homeRef={homeRef}
             aboutRef={aboutRef}

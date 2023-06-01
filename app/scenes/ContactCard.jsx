@@ -2,7 +2,7 @@ import React from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { FiMail } from 'react-icons/fi'
 
-const ContactCard = () => {
+const ContactCard = ({ contactRef }) => {
   return (
     <div className='flex_vert card' style={{ width: '25%', gap: '2rem', minWidth: '420px' }}>
       <h1>
@@ -22,7 +22,7 @@ const ContactCard = () => {
           <BsLinkedin size={20} />
         </a>
       </div>
-      <button className='button_main fullWidth'>
+      <button className='button_main fullWidth' onClick={() => contactRef.current.scrollIntoView()}>
         <FiMail size={'1.25rem'} />
         Contact Me!
       </button>
