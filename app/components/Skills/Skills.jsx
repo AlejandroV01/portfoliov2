@@ -1,7 +1,21 @@
 /* eslint-disable react/jsx-key */
+import { color } from 'framer-motion'
 import React from 'react'
-import { FaCss3, FaGithub, FaHtml5, FaJava, FaNodeJs, FaReact } from 'react-icons/fa'
-import { SiExpress, SiJavascript, SiMongodb, SiMui, SiNextdotjs, SiPostman, SiRedux, SiTypescript } from 'react-icons/si'
+import { FaCss3, FaGithub, FaHtml5, FaJava, FaNodeJs, FaReact, FaSass } from 'react-icons/fa'
+import {
+  SiExpress,
+  SiFirebase,
+  SiJavascript,
+  SiJsonwebtokens,
+  SiMongodb,
+  SiMui,
+  SiNextdotjs,
+  SiPostman,
+  SiRedux,
+  SiStorybook,
+  SiStyledcomponents,
+  SiTypescript,
+} from 'react-icons/si'
 const Skills = () => {
   const info = [
     {
@@ -27,10 +41,16 @@ const Skills = () => {
       title: 'Tools',
       skills: [
         ['Redux', <SiRedux size={20} color='#764abc' />, '#764abc'],
-        ['GitHub', <FaGithub size={20} color='#424242' />, '#424242'],
+        ['Git', <FaGithub size={20} color='#424242' />, '#424242'],
         ['MongoDB', <SiMongodb size={20} color='#0cd45b' />, '#0cd45b'],
         ['Postman', <SiPostman size={20} color='#f93748' />, '#f93748'],
         ['MUI', <SiMui size={20} color='#5188d4' />, '#5188d4'],
+        ['Firebase', <SiFirebase size={20} color='#FFA611' />],
+        ['SASS', <FaSass size={20} color='#CD6799' />],
+        ['Storybook', <SiStorybook size={20} color='#ff528c' />],
+        ['Styled-Components', <SiStyledcomponents size={20} color='#f792bc' />],
+        ['Emotion', '👩‍🎤'],
+        ['JSONWebToken', <SiJsonwebtokens size={20} color='white' />],
       ],
     },
   ]
