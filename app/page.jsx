@@ -1,6 +1,6 @@
 'use client'
 import { useInView } from 'framer-motion'
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import MouseFollow from './components/MouseFollow'
@@ -44,6 +44,9 @@ export default function HomePage() {
         break
     }
   }
+  useEffect(() => {
+    console.log('Hey there!👋👋')
+  }, [])
   return (
     <div>
       <ToastContainer />
