@@ -36,7 +36,7 @@ const Resume = () => {
         {info.map((job, index) => {
           return (
             <div key={index} className='grid gutterBig' style={{ gap: '2.5rem', justifyContent: 'flex-start' }}>
-              <a href={job.link} className='coverLink' />
+              <a href={job.link} className='coverLink' target='_blank' rel='noopener noreferrer' />
               <p className='subtleText leftGrid leftGridResume'>
                 {job.startDate.toUpperCase()} - {job.endDate.toUpperCase()}
               </p>

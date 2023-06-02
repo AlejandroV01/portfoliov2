@@ -55,7 +55,7 @@ export default function HomePage() {
       <MouseFollow />
       <div className={styles.mainContainer}>
         <div className={styles.mainFlex}>
-          <ContactCard contactRef={contactRef} />
+          <ContactCard contactRef={contactRef} homeRef={homeRef} />
           <InfoPanel
             homeRef={homeRef}
             aboutRef={aboutRef}

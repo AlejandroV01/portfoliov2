@@ -37,7 +37,7 @@ const Projects = () => {
       {info.map((project, index) => {
         return (
           <div key={index} className='grid gutterBig' style={{ gap: '2.5rem', justifyContent: 'flex-start' }}>
-            <a href={project.link} className='coverLink' />
+            <a href={project.link} className='coverLink' target='_blank' rel='noopener noreferrer' />
             {/* eslint-disable-next-line */}
             <img className='leftGrid leftGridMod fullWidth' alt={project.title} src={project.imgUrl} />
             <div className='flexVert rightGrid rightGridMod'>

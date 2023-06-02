@@ -2,11 +2,18 @@ import React from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { FiMail } from 'react-icons/fi'
 import styles from './ContactCard.module.css'
-const ContactCard = ({ contactRef }) => {
+const ContactCard = ({ contactRef, homeRef }) => {
   return (
     <div style={{ gap: '2rem' }} className={styles.card}>
       <h1>
-        <a href='/' className={styles.title}>
+        <a
+          href='/'
+          className={styles.title}
+          onClick={e => {
+            e.preventDefault()
+            homeRef.current.scrollIntoView()
+          }}
+        >
           Alejandro Vera
         </a>
       </h1>
