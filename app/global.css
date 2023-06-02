@@ -164,8 +164,16 @@ h2 {
   }
 }
 
+@media (max-width: 900px) {
+  .shortWidthSection {
+    width: 100%;
+  }
+}
 @media (max-width: 570px) {
   h1 {
     font-size: 2.5rem;
+  }
+  .introduceHeading {
+    font-size: 4rem !important;
   }
 }

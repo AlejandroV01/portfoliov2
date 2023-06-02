@@ -3,10 +3,10 @@ import SpinningText from '../SpinningText'
 const Introduce = () => {
   return (
     <div className='gutterHuge'>
-      <h1 className='flex lighterHeading' style={{ fontSize: '5rem', display: 'inline' }}>
-        Hi, I&apos;m <span className='mainColor'>Alejandro</span>,
+      <h1 className='flex lighterHeading introduceHeading' style={{ fontSize: '5rem', display: 'inline' }}>
+        Hi, I&apos;m <span className='mainColor '>Alejandro</span>,
       </h1>
-      <h1 className='lighterHeading gutterBig' style={{ fontSize: '5rem' }}>
+      <h1 className='lighterHeading gutterBig introduceHeading' style={{ fontSize: '5rem' }}>
         Full Stack Engineer
       </h1>
       <p style={{ maxWidth: '550px' }} className='subtleText gutterBig'>
