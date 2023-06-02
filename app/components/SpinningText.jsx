@@ -10,7 +10,7 @@ const SpinningText = () => {
       const text = textElement.innerText
       textElement.innerHTML = text
         .split('')
-        .map((char, i) => `<span style="transform:rotate(${i * 8.5}deg)">${char}</span>`)
+        .map((char, i) => `<span style="transform:rotate(${i * 13.846}deg)">${char}</span>`)
         .join('')
     }
   }, [])

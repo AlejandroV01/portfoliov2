@@ -2,8 +2,11 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
+  z-index: 10;
 }
-
+.ContactDiv {
+  z-index: 10;
+}
 .contactInputDiv {
   display: flex;
   flex-direction: column;
@@ -40,7 +43,7 @@
 .tall-input:focus {
   color: white;
 }
-@media (max-width: 1050px) {
+@media (max-width: 1230px) {
   .ContactDiv {
     padding-bottom: 5rem;
   }
