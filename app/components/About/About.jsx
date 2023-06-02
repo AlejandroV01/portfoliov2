@@ -10,7 +10,7 @@ const About = () => {
         I&apos;m Alejandro, a full-stack developer passionate about web development. Currently pursuing a Bachelor&apos;s Degree in Computer Science,
         I am expanding my skills beyond Java by self-teaching JavaScript, Next.js, Express.js, Node.js, React.js, MongoDB, and more. In my free time,
         I work on personal projects, engage in programming events, and prioritize maintaining a healthy mental state through activities like walking
-        my dog.
+        my dog and acing in Valorant.
       </p>
     </div>
   )
