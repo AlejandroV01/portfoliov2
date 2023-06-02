@@ -119,15 +119,6 @@ h2 {
   color: var(--main);
 }
 
-.card {
-  width: 25%;
-  position: sticky;
-  align-items: start;
-  top: 0;
-  padding: 6rem 0;
-  max-height: 100vh;
-}
-
 .gutter {
   margin-bottom: 1rem;
 }
@@ -195,7 +186,7 @@ h2 {
 }
 
 .moreInfoLink:hover {
-  transition: gap 0.1s ease-in-out;
+  transition: gap 0.3s ease-in-out;
   gap: 10px;
 }
 .moreInfoText {
@@ -215,6 +206,14 @@ h2 {
 }
 .InfoPanel {
   padding-top: 6rem;
+}
+.card {
+  position: sticky;
+  align-items: start;
+  top: 0;
+  padding: 6rem 0;
+  max-height: 100vh;
+  min-width: 350px;
 }
 @media (max-width: 1230px) {
   .main_flex {

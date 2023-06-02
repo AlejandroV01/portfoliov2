@@ -20,9 +20,11 @@
   color: var(--main);
 }
 .grid:hover .externalLink {
-  transition: color 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin-left: 0.75rem;
   color: var(--main);
 }
+
 .projectResumeTitle {
   transition: color 0.3s ease-in-out;
   color: var(--textColor);
@@ -49,12 +51,7 @@
   width: 20px;
   color: var(--textColor);
   margin-left: 0.5rem;
-  transition: margin-left 0.1s ease-in-out;
-}
-
-.grid:hover .externalLink {
-  transition: margin-left 0.1s ease-in-out;
-  margin-left: 0.75rem;
+  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 1230px) {

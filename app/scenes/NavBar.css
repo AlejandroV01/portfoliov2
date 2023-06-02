@@ -5,7 +5,7 @@
   justify-content: flex-end;
   padding: 6rem 0;
   max-height: 100vh;
-  width: 100%;
+
   top: 0;
 }
 
@@ -25,27 +25,6 @@
 
 @media (max-width: 1230px) {
   .NavBar {
-    padding: 0;
-    position: fixed;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-end;
-    bottom: 0;
-    left: 0;
-  }
-  .navBarDiv {
-    padding: 1rem 2rem;
-    flex-direction: row;
-    margin-bottom: 1rem;
-  }
-  .navBack {
-    background-color: rgba(0, 0, 0, 0.555);
-    width: 100%;
-    height: 95px;
-    position: absolute;
-    z-index: -1;
-    border-top-left-radius: var(--borderRadius);
-    border-top-right-radius: var(--borderRadius);
-    backdrop-filter: blur(50px);
+    display: none;
   }
 }
