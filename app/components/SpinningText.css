@@ -42,3 +42,9 @@
   transform-origin: 0 100px;
   overflow: hidden;
 }
+
+@media (max-width: 680px) {
+  .circle {
+    display: none;
+  }
+}

@@ -52,7 +52,7 @@ const Contact = () => {
       )
   }
   return (
-    <div className='gutterHuge'>
+    <div className='gutterHuge ContactDiv'>
       <h1 className='lighterHeading gutterBig'>
         Let&apos;s Work <span className='mainColor '>Together!</span>
       </h1>

@@ -36,3 +36,9 @@
   resize: none;
   grid-column: span 4;
 }
+
+@media (max-width: 1050px) {
+  .ContactDiv {
+    padding-bottom: 5rem;
+  }
+}

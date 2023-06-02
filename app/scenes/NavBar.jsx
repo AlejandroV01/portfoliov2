@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import { BiChalkboard } from 'react-icons/bi'
 import { BsHouseDoor, BsPerson } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
@@ -17,10 +17,10 @@ const NavBar = ({ isHomeInView, isAboutInView, isSkillsInView, isResumeInView, i
   }
   const shouldHighlightElements = elementName => {
     const highestVisible = highestVisibleElement()
-    return elementName === highestVisible
+    if (elementName === highestVisible) return elementName === highestVisible
   }
   return (
-    <div style={{ width: '15%' }} className='NavBar'>
+    <div className='NavBar'>
       <div className='navBarDiv'>
         <BsHouseDoor onClick={() => handleIconClick('home')} size={25} color={shouldHighlightElements('home') && '#15cfb6'} />
         <BsPerson onClick={() => handleIconClick('about')} size={25} color={shouldHighlightElements('about') && '#15cfb6'} />
@@ -29,6 +29,7 @@ const NavBar = ({ isHomeInView, isAboutInView, isSkillsInView, isResumeInView, i
         <BiChalkboard onClick={() => handleIconClick('projects')} size={25} color={shouldHighlightElements('projects') && '#15cfb6'} />
         <FiMail onClick={() => handleIconClick('contact')} size={25} color={shouldHighlightElements('contact') && '#15cfb6'} />
       </div>
+      <div className='navBack'></div>
     </div>
   )
 }

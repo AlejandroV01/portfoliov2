@@ -4,7 +4,7 @@ import { FiMail } from 'react-icons/fi'
 
 const ContactCard = ({ contactRef }) => {
   return (
-    <div className='flex_vert card' style={{ width: '25%', gap: '2rem', minWidth: '420px' }}>
+    <div style={{ gap: '2rem' }} className='flex_vert card'>
       <h1>
         <a href='/' className='title'>
           Alejandro Vera

@@ -28,11 +28,11 @@
   color: var(--textColor);
 }
 .leftGrid {
-  grid-column: span 2 / span 2;
+  grid-column: span 3 / span 3;
 }
 
 .rightGrid {
-  grid-column: span 6 / span 6;
+  grid-column: span 5 / span 5;
 }
 
 .coverLink {
@@ -55,4 +55,28 @@
 .grid:hover .externalLink {
   transition: margin-left 0.1s ease-in-out;
   margin-left: 0.75rem;
+}
+
+@media (max-width: 1230px) {
+  .rightGridMod {
+    grid-column: span 8 / span 8 !important;
+  }
+  .leftGridMod {
+    grid-column: span 4 / span 4 !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .leftGridMod {
+    grid-column: span 6 / span 6 !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .rightGridResume {
+    grid-column: span 8 / span 8 !important;
+  }
+  .leftGridResume {
+    grid-column: span 6 / span 6 !important;
+  }
 }

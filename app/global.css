@@ -120,6 +120,7 @@ h2 {
 }
 
 .card {
+  width: 25%;
   position: sticky;
   align-items: start;
   top: 0;
@@ -145,11 +146,6 @@ h2 {
 }
 .main_flex {
   gap: 5%;
-}
-@media (max-width: 1250px) {
-  .main_container {
-    flex-direction: column;
-  }
 }
 
 .mousefollow {
@@ -216,4 +212,41 @@ h2 {
 .skillChip:hover .skillChipText {
   transition: color 0.1s ease-in-out;
   color: white;
+}
+.InfoPanel {
+  padding-top: 6rem;
+}
+@media (max-width: 1230px) {
+  .main_flex {
+    flex-direction: column;
+  }
+  .card {
+    position: relative;
+    width: 70%;
+  }
+  .InfoPanel {
+    padding-top: 3rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .card {
+    width: 100%;
+  }
+  .main_container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 570px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main_container {
+    padding: 0 1rem;
+  }
 }

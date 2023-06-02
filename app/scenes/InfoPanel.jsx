@@ -12,7 +12,7 @@ import Resume from '../components/Resume/Resume'
 import Skills from '../components/Skills/Skills'
 const InfoPanel = ({ homeRef, aboutRef, skillsRef, resumeRef, projectsRef, contactRef }) => {
   return (
-    <div style={{ width: '60%', paddingTop: '6rem' }} className='flexVert'>
+    <div className='flexVert InfoPanel'>
       <div className='chip gutterBig' ref={homeRef}>
         <BsHouseDoor />
         <span>INTRODUCE</span>

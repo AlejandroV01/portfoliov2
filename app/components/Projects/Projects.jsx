@@ -39,8 +39,8 @@ const Projects = () => {
           <div key={index} className='grid gutterBig' style={{ gap: '2.5rem', justifyContent: 'flex-start' }}>
             <a href={project.link} className='coverLink' />
             {/* eslint-disable-next-line */}
-            <img className='leftGrid fullWidth' alt={project.title} src={project.imgUrl} />
-            <div className='flexVert rightGrid'>
+            <img className='leftGrid leftGridMod fullWidth' alt={project.title} src={project.imgUrl} />
+            <div className='flexVert rightGrid rightGridMod'>
               <div className='flex gutter' style={{ alignItems: 'center' }}>
                 <h3 className=' projectResumeTitle'>{project.title}</h3>
                 <div>

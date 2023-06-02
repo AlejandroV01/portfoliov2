@@ -37,10 +37,10 @@ const Resume = () => {
           return (
             <div key={index} className='grid gutterBig' style={{ gap: '2.5rem', justifyContent: 'flex-start' }}>
               <a href={job.link} className='coverLink' />
-              <p className='subtleText leftGrid'>
+              <p className='subtleText leftGrid leftGridResume'>
                 {job.startDate.toUpperCase()} - {job.endDate.toUpperCase()}
               </p>
-              <div className='flexVert rightGrid'>
+              <div className='flexVert rightGrid rightGridResume'>
                 <div className='flex gutter' style={{ gap: '1rem', alignItems: 'center' }}>
                   <h3 className='projectResumeTitle'>
                     {job.role} &#x2022; {job.company}
