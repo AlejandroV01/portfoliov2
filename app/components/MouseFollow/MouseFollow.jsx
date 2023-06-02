@@ -1,7 +1,6 @@
 'use client'
-
-import { motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
+import styles from './MouseFollow.module.css'
 
 const MouseFollow = () => {
   const [point, setPoint] = useState({ x: 0, y: 0 })
@@ -29,7 +28,7 @@ const MouseFollow = () => {
   return (
     <div
       ref={ref}
-      className='mousefollow'
+      className={styles.mouseFollow}
       style={{
         transform: `translate(${x}px, ${y}px)`,
       }}

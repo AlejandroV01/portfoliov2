@@ -15,10 +15,10 @@
 
 .contactInput {
   background-color: var(--mainLight);
-  color: var(--textColor);
+  color: var(--textColor) !important;
   border: none;
   font-size: 1rem;
-  padding: 5px 10px;
+  padding: 5px 10px !important;
   outline: none;
   caret-color: var(--main);
   border-radius: var(--borderRadius);
@@ -29,10 +29,10 @@
 
 .tall-input {
   background-color: var(--mainLight);
-  color: var(--textColor);
+  color: var(--textColor) !important;
   border: none;
   font-size: 1rem;
-  padding: 5px 10px;
+  padding: 5px 10px !important;
   outline: none;
   caret-color: var(--main);
   border-radius: var(--borderRadius);

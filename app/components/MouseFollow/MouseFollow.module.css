@@ -1,0 +1,7 @@
+.mouseFollow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 900px 300px var(--mainMouse);
+  border-radius: 50%;
+}

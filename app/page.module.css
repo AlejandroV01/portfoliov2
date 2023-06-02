@@ -1,0 +1,35 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(29, 29, 29, 1) 0%, rgba(23, 23, 23, 1) 50%, rgba(29, 29, 29, 1) 100%);
+}
+.mainFlex {
+  display: flex;
+  gap: 5%;
+}
+
+.mainContainer {
+  padding: 0 6rem;
+  min-height: 100vh;
+}
+@media (max-width: 1230px) {
+  .mainFlex {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 680px) {
+  .mainContainer {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .mainContainer {
+    padding: 0 1rem;
+  }
+}

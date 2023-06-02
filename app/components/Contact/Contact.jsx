@@ -100,7 +100,7 @@ const Contact = () => {
                 <InputBase
                   name='message'
                   value={values.message}
-                  className='tall-input '
+                  className='tall-input'
                   onBlur={handleBlur}
                   onChange={handleChange}
                   placeholder='Write your message here...'

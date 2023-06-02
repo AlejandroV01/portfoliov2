@@ -3,8 +3,9 @@ import { useInView } from 'framer-motion'
 import { useEffect, useRef } from 'react'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import MouseFollow from './components/MouseFollow'
-import ContactCard from './scenes/ContactCard'
+import MouseFollow from './components/MouseFollow/MouseFollow'
+import styles from './page.module.css'
+import ContactCard from './scenes/ContactCard/ContactCard'
 import InfoPanel from './scenes/InfoPanel'
 import NavBar from './scenes/NavBar'
 export default function HomePage() {
@@ -50,10 +51,10 @@ export default function HomePage() {
   return (
     <div>
       <ToastContainer />
-      <div className='background'></div>
+      <div className={styles.background}></div>
       <MouseFollow />
-      <div className='main_container'>
-        <div className='flex main_flex'>
+      <div className={styles.mainContainer}>
+        <div className={styles.mainFlex}>
           <ContactCard contactRef={contactRef} />
           <InfoPanel
             homeRef={homeRef}
