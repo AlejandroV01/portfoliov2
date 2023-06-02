@@ -5,7 +5,6 @@ import { Formik } from 'formik'
 import React, { useRef, useState } from 'react'
 import { toast } from 'react-toastify'
 import * as yup from 'yup'
-import 'yup-phone'
 import './Contact.css'
 import Input from './Input'
 

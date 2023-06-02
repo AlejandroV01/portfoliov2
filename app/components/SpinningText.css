@@ -1,12 +1,3 @@
-:root {
-  --main: #15cfb6;
-  --mainLight: #20f7da0e;
-  --textColor: #ffffffcb;
-  --textColorSubtle: #999999;
-  --borderColor: #808080;
-  --borderRadius: 1.25rem;
-}
-
 .circle {
   position: relative;
   width: 200px;
