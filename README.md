@@ -8,7 +8,7 @@
   My personal portfolio site <a href="https://alejandrovera.com" target="_blank">alejandrovera.com</a> built with <a href="https://react.dev/" target="_blank">React</a> and </a> built with <a href="https://nextjs.org/" target="_blank">Next</a>. 
 </p>
 <p align="center"> Hosted with <a href="https://vercel.com/" target="_blank">Vercel</a></p>
-<img src="https://raw.githubusercontent.com/AlejandroV01/portfoliov2/PictureAdd/public/LandingPage.PNG"/>
+<img src="https://raw.githubusercontent.com/AlejandroV01/portfoliov2/main/public/LandingPage.PNG"/>
 
 <h2> Tech Stack</h2>
 <li>
