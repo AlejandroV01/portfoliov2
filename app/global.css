@@ -9,7 +9,9 @@
   --borderColor: #808080;
   --borderRadius: 1.25rem;
 }
-
+html {
+  background: linear-gradient(0deg, rgba(29, 29, 29, 1) 0%, rgba(23, 23, 23, 1) 50%, rgba(29, 29, 29, 1) 100%);
+}
 * {
   box-sizing: border-box;
   margin: 0;
