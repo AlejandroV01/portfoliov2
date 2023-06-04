@@ -1,5 +1,7 @@
 'use client'
-import React, { useEffect, useRef } from 'react'
+import { duration } from '@mui/material'
+import { motion } from 'framer-motion'
+import React, { useEffect, useRef, useState } from 'react'
 import { BsArrowDown } from 'react-icons/bs'
 import './SpinningText.css'
 const SpinningText = () => {
@@ -10,19 +12,19 @@ const SpinningText = () => {
       const text = textElement.innerText
       textElement.innerHTML = text
         .split('')
-        .map((char, i) => `<span style="transform:rotate(${i * 13.846}deg)">${char}</span>`)
+        .map((char, i) => `<span style="transform:rotate(${i * 18}deg)">${char}</span>`)
         .join('')
     }
   }, [])
   return (
-    <div className='circle'>
+    <motion.div className='circle'>
       <BsArrowDown className='textColor' size={50} />
       <div className='circle_text'>
-        <p ref={textRef} className='textColor'>
-          MY PROJECTS &#x2022; FULL STACK &#x2022;
-        </p>
+        <motion.p ref={textRef} className='textColor' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
+          EXPERIENCE&#x2022;FRONTEND&#x2022;
+        </motion.p>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

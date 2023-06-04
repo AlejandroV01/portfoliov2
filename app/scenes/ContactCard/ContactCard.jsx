@@ -17,15 +17,15 @@ const ContactCard = ({ contactRef, homeRef }) => {
           Alejandro Vera
         </a>
       </h1>
-      <h2>Full Stack Engineer</h2>
+      <h2>Frontend Engineer</h2>
       <p className='subtleText'>
-        Building up projects and learning more about programming is my passion. I construct accessible full-stack projects for the web.
+        Building up projects and learning more about programming is my passion. I construct accessible projects for the web.
       </p>
       <div className='flex' style={{ gap: '0.5rem' }}>
-        <a className={styles.socialIcon} href='https://github.com/AlejandroV01'>
+        <a className={styles.socialIcon} href='https://github.com/AlejandroV01' target='_blank'>
           <BsGithub size={20} />
         </a>
-        <a className={styles.socialIcon} href='https://www.linkedin.com/in/alejandro-vera-996579248/'>
+        <a className={styles.socialIcon} href='https://www.linkedin.com/in/alejandro-vera-996579248/' target='_blank'>
           <BsLinkedin size={20} />
         </a>
       </div>

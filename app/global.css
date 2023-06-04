@@ -11,7 +11,6 @@
 }
 
 * {
-  font-family: 'Inter', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -43,6 +42,7 @@ h2 {
 }
 
 .button_main {
+  color: #1a1d1d;
   display: flex;
   align-items: center;
   font-size: 1.1rem;
