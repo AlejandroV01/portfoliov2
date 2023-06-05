@@ -1,5 +1,4 @@
 'use client'
-import { duration } from '@mui/material'
 import { motion } from 'framer-motion'
 import React, { useEffect, useRef, useState } from 'react'
 import { BsArrowDown } from 'react-icons/bs'

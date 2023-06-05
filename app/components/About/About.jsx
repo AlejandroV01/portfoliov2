@@ -1,11 +1,11 @@
 import React from 'react'
-
+import AnimatedHeader from '../AnimatedHeader'
 const About = () => {
   return (
     <div className='shortWidthSection gutterHuge'>
-      <h1 className='lighterHeading gutterBig'>
+      <AnimatedHeader className='lighterHeading gutterBig'>
         Bridging the Gap between Imagination and <span className='mainColor'>Innovation</span>
-      </h1>
+      </AnimatedHeader>
       <p className='subtleText'>
         I&apos;m Alejandro, a frontend engineer passionate about software/web development. Currently pursuing a Bachelor&apos;s Degree in Computer
         Science, I am expanding my skills beyond the school-taught Java by self-teaching JavaScript, Next.js, Express.js, Node.js, React.js, MongoDB,

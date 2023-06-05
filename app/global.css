@@ -110,6 +110,14 @@ h2 {
   font-size: 14px;
   align-items: center;
   justify-content: center;
+  transition: color 0.1s ease-in-out;
+}
+.mainChipText {
+  transition: color 0.1s ease-in-out;
+  color: var(--textColorSubtle);
+}
+.chip:hover .mainChipText {
+  color: white;
 }
 
 .chipSecond {

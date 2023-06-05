@@ -2,14 +2,13 @@
 import emailjs from '@emailjs/browser'
 import { InputBase } from '@mui/material'
 import { Formik } from 'formik'
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import { toast } from 'react-toastify'
 import * as yup from 'yup'
+import AnimatedHeader from '../AnimatedHeader'
 import './Contact.css'
 import Input from './Input'
-
 const Contact = () => {
-  const [isSubmitted, setIsSubmitted] = useState(false)
   const form = useRef()
   const contactSchema = yup.object().shape({
     fullName: yup.string().required('required'),
@@ -52,9 +51,9 @@ const Contact = () => {
   }
   return (
     <div className='gutterHuge ContactDiv'>
-      <h1 className='lighterHeading gutterBig'>
+      <AnimatedHeader className='lighterHeading gutterBig'>
         Let&apos;s Work <span className='mainColor '>Together!</span>
-      </h1>
+      </AnimatedHeader>
       <h2 className='lighterHeading gutterBig'>alexvera0109@gmail.com</h2>
 
       <Formik onSubmit={handleFormSubmit} initialValues={initialValuesContact} validationSchema={contactSchema}>

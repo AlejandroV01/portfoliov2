@@ -1,7 +1,6 @@
-import Image from 'next/image'
 import React from 'react'
 import { FiExternalLink } from 'react-icons/fi'
-
+import AnimatedHeader from '../AnimatedHeader'
 const Projects = () => {
   const info = [
     {
@@ -29,11 +28,12 @@ const Projects = () => {
       skills: ['React', 'JavaScript', 'Zustand', 'Firebase', 'Axios', 'RSuite'],
     },
   ]
+
   return (
     <div className='gutterHuge'>
-      <h1 className='lighterHeading gutterBig'>
+      <AnimatedHeader className='lighterHeading gutterBig'>
         My <span className='mainColor '>Projects</span>
-      </h1>
+      </AnimatedHeader>
       {info.map((project, index) => {
         return (
           <div key={index} className='grid gutterBig' style={{ gap: '2.5rem', justifyContent: 'flex-start' }}>

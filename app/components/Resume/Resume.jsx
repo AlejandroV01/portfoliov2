@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsArrowRightShort } from 'react-icons/bs'
 import { FiExternalLink } from 'react-icons/fi'
+import AnimatedHeader from '../AnimatedHeader'
 import './Resume.css'
 const Resume = () => {
   const info = [
@@ -27,11 +28,12 @@ const Resume = () => {
       link: 'https://guildgaming.gg/',
     },
   ]
+
   return (
     <div className='gutterHuge'>
-      <h1 className='lighterHeading gutterBig'>
+      <AnimatedHeader className='lighterHeading gutterBig'>
         Education & <span className='mainColor'>Experience</span>
-      </h1>
+      </AnimatedHeader>
       <div className='flexVert' style={{ gap: '2rem' }}>
         {info.map((job, index) => {
           return (

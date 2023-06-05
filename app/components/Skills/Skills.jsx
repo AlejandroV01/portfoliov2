@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-key */
-import { color } from 'framer-motion'
 import React from 'react'
 import { FaCss3, FaGithub, FaHtml5, FaJava, FaNodeJs, FaReact, FaSass } from 'react-icons/fa'
 import {
@@ -16,6 +15,7 @@ import {
   SiStyledcomponents,
   SiTypescript,
 } from 'react-icons/si'
+import AnimatedHeader from '../AnimatedHeader'
 const Skills = () => {
   const info = [
     {
@@ -54,11 +54,12 @@ const Skills = () => {
       ],
     },
   ]
+
   return (
     <div className='gutterHuge'>
-      <h1 className='lighterHeading gutterBig'>
+      <AnimatedHeader className='lighterHeading gutterBig'>
         My <span className='mainColor'>Skills</span>
-      </h1>
+      </AnimatedHeader>
       <div className='flex_vert' style={{ gap: '1rem' }}>
         {info.map((skill, index) => (
           <div className='flex_vert ' key={index} style={{ gap: '1rem' }}>

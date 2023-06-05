@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import React, { useState } from 'react'
+import React from 'react'
 import { BiChalkboard } from 'react-icons/bi'
 import { BsHouseDoor, BsPerson } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'

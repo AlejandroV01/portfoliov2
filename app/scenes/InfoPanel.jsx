@@ -15,32 +15,32 @@ const InfoPanel = ({ homeRef, aboutRef, skillsRef, resumeRef, projectsRef, conta
     <div className='flexVert InfoPanel'>
       <div className='chip gutterBig' ref={homeRef}>
         <BsHouseDoor />
-        <span>INTRODUCE</span>
+        <span className='mainChipText'>INTRODUCE</span>
       </div>
       <Introduce />
       <div className='chip gutterBig' ref={aboutRef}>
         <BsPerson />
-        <span>ABOUT</span>
+        <span className='mainChipText'>ABOUT</span>
       </div>
       <About />
       <div className='chip gutterBig' ref={skillsRef}>
         <FaReact />
-        <span>SKILLS</span>
+        <span className='mainChipText'>SKILLS</span>
       </div>
       <Skills />
       <div className='chip gutterBig' ref={resumeRef}>
         <RiSuitcaseLine />
-        <span>RESUME</span>
+        <span className='mainChipText'>RESUME</span>
       </div>
       <Resume />
       <div className='chip gutterBig' ref={projectsRef}>
         <BiChalkboard />
-        <span>PROJECTS</span>
+        <span className='mainChipText'>PROJECTS</span>
       </div>
       <Projects />
       <div className='chip gutterBig' ref={contactRef}>
         <FiMail />
-        <span>Contact</span>
+        <span className='mainChipText'>Contact</span>
       </div>
       <Contact />
     </div>
