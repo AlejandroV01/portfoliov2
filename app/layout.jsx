@@ -1,4 +1,5 @@
 import { Inter } from '@next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 import './global.css'
 const inter = Inter({
   subsets: ['latin'],
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       </head>
       <body suppressHydrationWarning={true}>
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   )
