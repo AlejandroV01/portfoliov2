@@ -4,7 +4,7 @@ import SpinningText from '../SpinningText'
 const Introduce = () => {
   const line1 = "Hi, I'm"
   const name = 'Alejandro'
-  const line2 = 'Frontend Engineer'
+  const line2 = 'Full-Stack Engineer'
   const sentence = {
     hidden: { opacity: 1 },
     visible: {
@@ -55,7 +55,7 @@ const Introduce = () => {
       </motion.h1>
 
       <p style={{ maxWidth: '550px', marginTop: '3rem' }} className='subtleText gutterBig'>
-        Building up projects and learning more about programming is my passion. I construct accessible projects for the web.
+        Building up projects and learning more about programming is my passion. I construct accessible backend to frontend projects.
       </p>
       <div className='flex' style={{ justifyContent: 'flex-end', right: 100 }}>
         <SpinningText />

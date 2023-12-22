@@ -4,20 +4,20 @@ import AnimatedHeader from '../AnimatedHeader'
 const Projects = () => {
   const info = [
     {
-      imgUrl: '/ValoVault.PNG',
-      title: 'ValoVault',
-      description:
-        'ValoShop is a full-stack MERN application that allows Valorant enthusiasts to sign up, login, and track their favorite skins, while also offering social features such as adding friends and sharing liked skins for an enhanced user experience.',
-      link: 'https://github.com/AlejandroV01/ValShop',
-      skills: ['React', 'JavaScript', 'Node', 'Express', 'JSONWebToken', 'MongoDB', 'Emotion', 'MUI', 'Yup'],
-    },
-    {
       imgUrl: '/AlgoSaurus.PNG',
       title: 'AlgoSaurus',
       description:
         'Placed 3rd out of 620+ participants in the ShellHacks 2022 Hackathon by designing and launching an interactive algorithm visualizer using TypeScript, React.js, and modular CSS, while seamlessly integrating Firebase for project deployment and scalability to benefit beginner programmers.',
       link: 'https://algo-saurus.web.app/',
-      skills: ['React', 'TypeScript', 'Framer Motion', 'Victory', 'TS Particles'],
+      skills: ['React.js', 'TypeScript', 'Framer Motion', 'Victory', 'TS Particles'],
+    },
+    {
+      imgUrl: '/BarkTweet.PNG',
+      title: 'BarkTweet',
+      description:
+        'BarkTweet is a pet-centric social media app, a Twitter-like platform for pets. Built with React.js.js, Zustand, and Tailwind CSS on the frontend, and Node.js, Next.js, and PostgreSQL on the backend, it ensures efficient data management. Leadership efforts placed the project in the top 5% of submissions. The optimized frontend utilizes server-side rendering and Tailwind CSS for a 48% faster CSS bundling process, delivering a responsive and top-performing experience. Hosted on Vercel, BarkTweet redefines social media for pets.',
+      link: 'https://github.com/AlejandroV01/pet-social',
+      skills: ['React.js', 'Zustand', 'TailwindCSS', 'Node.js', 'Next.js', 'PostgreSQL', 'Vercel'],
     },
     {
       imgUrl: '/GameDeals.png',
@@ -25,7 +25,7 @@ const Projects = () => {
       description:
         'I leveraged the CheapShark API for seamless integration with a Firebase database and authentication system, enabling efficient GET requests to display discounted video game deals from over 20 stores, resulting in a captivating user experience enhanced by an aesthetically pleasing UI layout.',
       link: 'https://gamedeal.netlify.app/',
-      skills: ['React', 'JavaScript', 'Zustand', 'Firebase', 'Axios', 'RSuite'],
+      skills: ['React.js', 'JavaScript', 'Zustand', 'Firebase', 'Axios', 'RSuite'],
     },
   ]
 

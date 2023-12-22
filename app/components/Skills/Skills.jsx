@@ -1,19 +1,27 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
+import { BsFiletypeSql } from 'react-icons/bs'
 import { FaCss3, FaGithub, FaHtml5, FaJava, FaNodeJs, FaReact, FaSass } from 'react-icons/fa'
 import {
   SiExpress,
+  SiFigma,
   SiFirebase,
+  SiFlask,
   SiJavascript,
   SiJsonwebtokens,
   SiMongodb,
   SiMui,
   SiNextdotjs,
+  SiPostgresql,
   SiPostman,
+  SiPython,
   SiRedux,
   SiStorybook,
   SiStyledcomponents,
+  SiSupabase,
+  SiTailwindcss,
   SiTypescript,
+  SiVercel,
 } from 'react-icons/si'
 import AnimatedHeader from '../AnimatedHeader'
 const Skills = () => {
@@ -23,7 +31,9 @@ const Skills = () => {
       skills: [
         ['JavaScript', <SiJavascript size={20} color='#f7df1e' />, '#f7df1e'],
         ['TypeScript', <SiTypescript size={20} color='#007acc' />, '#007acc'],
+        ['Python', <SiPython size={20} color='#ffde57' />, '#ffde57'],
         ['Java', <FaJava size={20} color='#f89820' />, '#f89820'],
+        ['SQL', <BsFiletypeSql size={20} color='white' />, 'white'],
         ['HTML', <FaHtml5 size={20} color='#e34c26' />, '#e34c26'],
         ['CSS', <FaCss3 size={20} color='#264de4' />, '#264de4'],
       ],
@@ -32,14 +42,15 @@ const Skills = () => {
       title: 'Frameworks',
       skills: [
         ['React', <FaReact size={20} color='#61dafb' />, '#61dafb'],
-        ['Node', <FaNodeJs size={20} color='#3c873a' />, '#3c873a'],
         ['Next', <SiNextdotjs size={20} color='white' />, 'white'],
         ['Express', <SiExpress size={20} color='white' />, 'white'],
+        ['Flask', <SiFlask size={20} color='white' />, 'white'],
       ],
     },
     {
       title: 'Tools',
       skills: [
+        ['Node', <FaNodeJs size={20} color='#3c873a' />, '#3c873a'],
         ['Redux', <SiRedux size={20} color='#764abc' />, '#764abc'],
         ['Git', <FaGithub size={20} color='#424242' />, '#424242'],
         ['MongoDB', <SiMongodb size={20} color='#0cd45b' />, '#0cd45b'],
@@ -51,6 +62,11 @@ const Skills = () => {
         ['Styled-Components', <SiStyledcomponents size={20} color='#f792bc' />],
         ['Emotion', '👩‍🎤'],
         ['JSONWebToken', <SiJsonwebtokens size={20} color='white' />],
+        ['Supabase', <SiSupabase size={20} color='#3ecf8e' />],
+        ['PostgreSQL', <SiPostgresql size={20} color='#008bb9' />],
+        ['TailwindCSS', <SiTailwindcss size={20} color='#38bdf8' />],
+        ['Figma', <SiFigma size={20} color='#ff7667' />],
+        ['Vercel', <SiVercel size={20} color='white' />],
       ],
     },
   ]

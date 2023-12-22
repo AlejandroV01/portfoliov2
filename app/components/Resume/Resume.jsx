@@ -9,9 +9,11 @@ const Resume = () => {
       startDate: 'Aug 2020',
       endDate: 'Sep 2024',
       role: 'Florida International University',
-      company: 'Bachelor of Computer Science (3.5 GPA)',
-      bullets: ['Key Courses: Programming(I and II), Discrete Structures, Database Concepts, Computer Tech & Apps, Data Structures and Algorithms'],
-      skills: ['Java', 'IntelliJ', 'C', 'Data Structures', 'Unix'],
+      company: 'Bachelor of Computer Science (3.7 GPA)',
+      bullets: [
+        'Key Courses: Programming(I and II), Discrete Structures, Database Management, Computer Tech & Apps, Data Structures and Algorithms, Database Management, Computer Architecture',
+      ],
+      skills: ['Java', 'IntelliJ', 'C', 'Data Structures', 'Unix', 'Algorithms'],
       link: 'https://www.fiu.edu/',
     },
     {
@@ -20,11 +22,12 @@ const Resume = () => {
       role: 'Software Engineer',
       company: 'Seminaut Inc. (GuildGaming)',
       bullets: [
-        'Collaborated closely with a team of 15+ members, including UX/UI designers and senior software engineers, to enhance and upgrade features using agile methodologies.',
-        'Developed and implemented 15+ custom components, including buttons, cards, headers, and inputs, using React, Storybook, and PropTypes.',
-        "Achieved feature upgrades that resulted in a 20% increase in account registrations, contributing to the young platform's user base growth.",
+        'Developed and implemented 15+ custom UI components using React.js, Storybook, and Prop Types to decrease the JavaScript bundle by 12% and increase cross-site user accessibility.',
+        'Collaborated closely with a team of 18+ members, including UX/UI designers and senior software engineers, to enhance and upgrade features using agile methodologies.',
+        'Achieved feature upgrades using React and creating Flask routes in the backend that resulted in a 24% increase in account registrations.',
+        'Spearheaded the implementation of an innovative automated testing framework, reducing bug resolution time by 20% and enhancing overall software performance.',
       ],
-      skills: ['React', 'Storybook', 'JavaScript', 'Flask', 'Styled-Components', 'MUI', 'Gitlab'],
+      skills: ['React', 'Storybook', 'JavaScript', 'Flask', 'Styled-Components', 'MUI', 'Gitlab', 'Flask'],
       link: 'https://guildgaming.gg/',
     },
   ]

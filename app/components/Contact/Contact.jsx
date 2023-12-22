@@ -24,7 +24,6 @@ const Contact = () => {
     phone: '',
     message: '',
   }
-
   const handleFormSubmit = async (values, onSubmitProps) => {
     emailjs
       .sendForm(
@@ -36,7 +35,7 @@ const Contact = () => {
       .then(
         result => {
           onSubmitProps.resetForm()
-          toast.success('Successfully sent message!', {
+          toast.success('Successfully sent message! I will reply as soon as I can!', {
             position: 'bottom-right',
             theme: 'dark',
           })
