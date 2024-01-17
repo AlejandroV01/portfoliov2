@@ -12,7 +12,7 @@ const Projects = () => {
       skills: ['React.js', 'TypeScript', 'Framer Motion', 'Victory', 'TS Particles'],
     },
     {
-      imgUrl: '/BarkTweet.PNG',
+      imgUrl: '/BarkTweet.png',
       title: 'BarkTweet',
       description:
         'BarkTweet is a pet-centric social media app, a Twitter-like platform for pets. Built with React.js.js, Zustand, and Tailwind CSS on the frontend, and Node.js, Next.js, and PostgreSQL on the backend, it ensures efficient data management. Leadership efforts placed the project in the top 5% of submissions. The optimized frontend utilizes server-side rendering and Tailwind CSS for a 48% faster CSS bundling process, delivering a responsive and top-performing experience. Hosted on Vercel, BarkTweet redefines social media for pets.',
