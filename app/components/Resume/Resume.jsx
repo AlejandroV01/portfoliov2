@@ -17,6 +17,20 @@ const Resume = () => {
       link: 'https://www.fiu.edu/',
     },
     {
+      startDate: 'Jan 2024',
+      endDate: 'Apr 2024',
+      role: 'Web Development Project Leader',
+      company: 'INIT @ FIU',
+      bullets: [
+        'Led and collaborated with a team of 16 students to create a collaborative full-stack project using React.js, TypeScript, Tailwind CSS, and much more.',
+        'Implemented agile and SCRUM project management methodologies to ensure efficient task allocation, progress tracking, and timely delivery of milestones.',
+        'Oversaw and managed the integration of Supabase for database implementation and coordinated backend API development with Express and Node.js.',
+        'Organized weekly meetings to facilitate brainstorming sessions as well as provide guidance on technical challenges for skill development.',
+      ],
+      skills: ['React', 'TypeScript', 'PostgreSQL', 'Tailwind CSS', 'Git', 'Vite', 'Node.js', 'Socket.io'],
+      link: 'https://www.devbuds.org/',
+    },
+    {
       startDate: 'Nov 2022',
       endDate: 'Jan 2023',
       role: 'Software Engineer',
@@ -71,7 +85,7 @@ const Resume = () => {
           )
         })}
         <div className='flex gutterBig'>
-          <a href='/AlejandroVera_Resume.pdf' className='flex moreInfoLink' target='_blank' rel='noopener noreferrer'>
+          <a href='/Alejandro_Vera_Resume.pdf' className='flex moreInfoLink' target='_blank' rel='noopener noreferrer'>
             <h3 className='moreInfoText'>
               View Full <span className='mainColor'>Resume</span>
             </h3>

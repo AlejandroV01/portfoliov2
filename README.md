@@ -10,7 +10,7 @@
 <p align="center"> Hosted with <a href="https://vercel.com/" target="_blank">Vercel</a></p>
 <img src="https://raw.githubusercontent.com/AlejandroV01/portfoliov2/main/public/LandingPage.PNG"/>
 
-<h2> Tech Stack</h2>
+<h2>Tech Stack</h2>
 <li>
 React
 </li>

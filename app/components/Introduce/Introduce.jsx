@@ -4,7 +4,7 @@ import SpinningText from '../SpinningText'
 const Introduce = () => {
   const line1 = "Hi, I'm"
   const name = 'Alejandro'
-  const line2 = 'Full-Stack Engineer'
+  const line2 = 'Software Engineer'
   const sentence = {
     hidden: { opacity: 1 },
     visible: {

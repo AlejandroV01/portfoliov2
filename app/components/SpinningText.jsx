@@ -11,7 +11,7 @@ const SpinningText = () => {
       const text = textElement.innerText
       textElement.innerHTML = text
         .split('')
-        .map((char, i) => `<span style="transform:rotate(${i * 17}deg)">${char}</span>`)
+        .map((char, i) => `<span style="transform:rotate(${i * 20}deg)">${char}</span>`)
         .join('')
     }
   }, [])
@@ -20,7 +20,7 @@ const SpinningText = () => {
       <BsArrowDown className='textColor' size={50} />
       <div className='circle_text'>
         <motion.p ref={textRef} className='textColor' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
-          EXPERIENCE&#x2022;FULLSTACK&#x2022;
+          SOFTWARE&#x2022;ENGINEER&#x2022;
         </motion.p>
       </div>
     </motion.div>

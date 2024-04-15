@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsArrowRightShort, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { FiMail } from 'react-icons/fi'
 import styles from './ContactCard.module.css'
 const ContactCard = ({ contactRef, homeRef }) => {
@@ -17,7 +17,7 @@ const ContactCard = ({ contactRef, homeRef }) => {
           Alejandro Vera
         </a>
       </h1>
-      <h2>Full-Stack Engineer</h2>
+      <h2>Software Engineer</h2>
       <p className='subtleText'>
         Building up projects and learning more about programming is my passion. I construct accessible backend to frontend projects.
       </p>
@@ -29,6 +29,12 @@ const ContactCard = ({ contactRef, homeRef }) => {
           <BsLinkedin size={20} />
         </a>
       </div>
+      <a href='/Alejandro_Vera_Resume.pdf' className='flex moreInfoLink' target='_blank' rel='noopener noreferrer'>
+        <h3 className='moreInfoText'>
+          View My <span className='mainColor'>Resume</span>
+        </h3>
+        <BsArrowRightShort size={25} />
+      </a>
       <button className='button_main fullWidth' onClick={() => contactRef.current.scrollIntoView()}>
         <FiMail size={'1.25rem'} />
         Contact Me!
