@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
 import { BsFiletypeSql } from 'react-icons/bs'
-import { FaCss3, FaGithub, FaHtml5, FaJava, FaNodeJs, FaReact, FaSass } from 'react-icons/fa'
+import { FaAws, FaBrain, FaCss3, FaGithub, FaHtml5, FaJava, FaJira, FaNodeJs, FaReact, FaSass, FaSlack } from 'react-icons/fa'
 import {
   SiExpress,
   SiFigma,
@@ -53,6 +53,10 @@ const Skills = () => {
         ['Node', <FaNodeJs size={20} color='#3c873a' />, '#3c873a'],
         ['Redux', <SiRedux size={20} color='#764abc' />, '#764abc'],
         ['Git', <FaGithub size={20} color='#424242' />, '#424242'],
+        ['AWS', <FaAws size={20} color='#ff7300' />, '#424242'],
+        ['AI/RAG', <FaBrain size={20} color='#58f9ff' />, '#424242'],
+        ['Jira', <FaJira size={20} color='#1e87e9' />, '#424242'],
+        ['Slack', <FaSlack size={20} color='#e580ff' />, '#424242'],
         ['MongoDB', <SiMongodb size={20} color='#0cd45b' />, '#0cd45b'],
         ['Postman', <SiPostman size={20} color='#f93748' />, '#f93748'],
         ['MUI', <SiMui size={20} color='#5188d4' />, '#5188d4'],

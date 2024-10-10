@@ -17,6 +17,21 @@ const Resume = () => {
       link: 'https://www.fiu.edu/',
     },
     {
+      startDate: 'June 2024',
+      endDate: 'Aug 2024',
+      role: 'Software Developer Engineering Intern',
+      company: 'Amazon',
+      bullets: [
+        'Developed an AI-powered chatbot portal using React TypeScript and AWS services to streamline documentation retrieval to reduce search time by over 3 hours per week for 300+ developers.',
+        'Designed and implemented a RAG AI model to enable context-aware conversations and efficient documentation retrieval, leading to potential annual saving of $3,000,000+ for Amazon.',
+        'Collaborated with a cross-functional team of 12 developers, UX/UI specialists, and Principal Engineers to ensure the successful integration and validation of the chatbot’s backend services.',
+        'Led the onboarding of team documentation and created a POC Slack connector to enable seamless access to information from both internal documentation and Amazon’s Slack channels.',
+        'Gained insights into Amazon’s CI/CD process and agile methodologies by actively participating in sprints, JIRA management, and daily standup with the team.',
+      ],
+      skills: ['React', 'TypeScript', 'AWS', 'Git', 'Python', 'RAG AI', 'JIRA', 'Slack'],
+      link: 'https://aws.amazon.com/',
+    },
+    {
       startDate: 'Jan 2024',
       endDate: 'Apr 2024',
       role: 'Web Development Project Leader',
@@ -54,7 +69,7 @@ const Resume = () => {
       <div className='flexVert' style={{ gap: '2rem' }}>
         {info.map((job, index) => {
           return (
-            <div key={index} className='grid gutterBig' style={{ gap: '2.5rem', justifyContent: 'flex-start' }}>
+            <div key={index} className={`grid gutterBig ${index === 0 && 'firstBackground'}`} style={{ gap: '2.5rem', justifyContent: 'flex-start' }}>
               <a href={job.link} className='coverLink' target='_blank' rel='noopener noreferrer' />
               <p className='subtleText leftGrid leftGridResume'>
                 {job.startDate.toUpperCase()} - {job.endDate.toUpperCase()}

@@ -77,3 +77,7 @@
     grid-column: span 6 / span 6 !important;
   }
 }
+
+.firstBackground {
+  background-color: #15cfb610;
+}
