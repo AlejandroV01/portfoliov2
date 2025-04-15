@@ -6,8 +6,19 @@ import './Resume.css'
 const Resume = () => {
   const info = [
     {
+      startDate: 'February 2025',
+      endDate: 'PRESENT',
+      role: 'Software Development Engineering',
+      company: 'Amazon',
+      bullets: [
+        '',
+      ],
+      skills: ['TypeScript', 'React', 'AWS', 'Python', 'Cloud Infrastructure', 'LLM', 'CI/CD'],
+      link: 'https://aws.amazon.com/',
+    },
+    {
       startDate: 'Aug 2020',
-      endDate: 'Sep 2024',
+      endDate: 'Dec 2024',
       role: 'Florida International University',
       company: 'Bachelor of Computer Science (3.7 GPA)',
       bullets: [
@@ -84,9 +95,15 @@ const Resume = () => {
                   </div>
                 </div>
                 <div className='flexVert gutterSmall' style={{ gap: '5rem' }}>
-                  {job.bullets.map((bullet, index) => (
-                    <p key={index}>&#x2022; {bullet}</p>
-                  ))}
+                  {job.bullets.map((bullet, index) => {
+                    if (bullet === '') {
+                      return null
+                    }
+                    return (
+                      <p key={index}>&#x2022; {bullet}</p>
+                    )
+                  }
+                  )}
                 </div>
                 <div className='flex' style={{ gap: '0.5rem', flexWrap: 'wrap' }}>
                   {job.skills.map((skill, index) => (

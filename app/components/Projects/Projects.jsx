@@ -4,12 +4,12 @@ import AnimatedHeader from '../AnimatedHeader'
 const Projects = () => {
   const info = [
     {
-      imgUrl: '/devbuds.PNG',
-      title: 'Devbuds',
+      imgUrl: '/quizsensei.jpg',
+      title: 'Quiz Sensei',
       description:
-        'Devbuds is a collaborative platform where users can spark project ideas and assemble teams. By posting project needs and applying to relevant roles, users can find collaborators with matching skills to bring their ideas to life. Built with React.js, TypeScript, and Tailwind CSS, this platform fosters teamwork for non-commercial creative projects.',
-      link: 'https://www.devbuds.org/',
-      skills: ['React.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Redux', 'Socket.io', 'Git', 'Vite'],
+        'Quiz Sensei is an AI-powered platform that transforms user notes into personalized, interactive quizzes with adjustable difficulty, question types, and detailed explanations to enhance learning. Built with Next.js, TypeScript, and a modern tech stack, it also includes features like progress tracking and visual aids for deeper understanding.',
+      link: 'https://www.quizsensei.com/',
+      skills: ['React.js', 'TypeScript', 'Next.js', 'Zustand', 'AI', 'Mermaid', 'TailwindCSS', 'Git'],
     },
     {
       imgUrl: '/AlgoSaurus.PNG',
@@ -20,12 +20,12 @@ const Projects = () => {
       skills: ['React.js', 'TypeScript', 'Framer Motion', 'Victory', 'TS Particles'],
     },
     {
-      imgUrl: '/BarkTweet.png',
-      title: 'BarkTweet',
+      imgUrl: '/devbuds.PNG',
+      title: 'Devbuds',
       description:
-        'BarkTweet is a pet-centric social media app, a Twitter-like platform for pets. Built with React.js.js, Zustand, and Tailwind CSS on the frontend, and Node.js, Next.js, and PostgreSQL on the backend, it ensures efficient data management. Leadership efforts placed the project in the top 5% of submissions. The optimized frontend utilizes server-side rendering and Tailwind CSS for a 48% faster CSS bundling process, delivering a responsive and top-performing experience. Hosted on Vercel, BarkTweet redefines social media for pets.',
-      link: 'https://github.com/AlejandroV01/pet-social',
-      skills: ['React.js', 'Zustand', 'TailwindCSS', 'Node.js', 'Next.js', 'PostgreSQL', 'Vercel'],
+        'Devbuds is a collaborative platform where users can spark project ideas and assemble teams. By posting project needs and applying to relevant roles, users can find collaborators with matching skills to bring their ideas to life. Built with React.js, TypeScript, and Tailwind CSS, this platform fosters teamwork for non-commercial creative projects.',
+      link: 'https://www.devbuds.org/',
+      skills: ['React.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Redux', 'Socket.io', 'Git', 'Vite'],
     },
   ]
 

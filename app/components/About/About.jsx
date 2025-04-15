@@ -7,10 +7,8 @@ const About = () => {
         Bridging the Gap between Imagination and <span className='mainColor'>Innovation</span>
       </AnimatedHeader>
       <p className='subtleText'>
-        I&apos;m Alejandro, a software engineer passionate about software/web development. Currently pursuing a Bachelor&apos;s Degree in Computer
-        Science, I am expanding my skills beyond the school-taught Java by self-teaching JavaScript, Next.js, Express.js, Node.js, React.js, MongoDB,
-        and much more. In my free time, I work on personal projects, engage in programming events, and prioritize maintaining a healthy mental state
-        through activities like walking my dog and spending time with family and friends.
+        Hi! I’m Alejandro, a Software Engineer at Amazon, with a B.S. in Computer Science from Florida International University.
+        I build full-stack, AI-powered apps using React, TypeScript, Python, Node.js, and cloud tools—focusing on clean, scalable, customer-first solutions.
       </p>
     </div>
   )

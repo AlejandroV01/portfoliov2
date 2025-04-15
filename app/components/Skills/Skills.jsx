@@ -29,9 +29,9 @@ const Skills = () => {
     {
       title: 'Languages',
       skills: [
-        ['JavaScript', <SiJavascript size={20} color='#f7df1e' />, '#f7df1e'],
         ['TypeScript', <SiTypescript size={20} color='#007acc' />, '#007acc'],
         ['Python', <SiPython size={20} color='#ffde57' />, '#ffde57'],
+        ['JavaScript', <SiJavascript size={20} color='#f7df1e' />, '#f7df1e'],
         ['Java', <FaJava size={20} color='#f89820' />, '#f89820'],
         ['SQL', <BsFiletypeSql size={20} color='white' />, 'white'],
         ['HTML', <FaHtml5 size={20} color='#e34c26' />, '#e34c26'],
